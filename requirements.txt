@@ -1,0 +1,26 @@
+# Database drivers
+# sqlite3 is built-in, no need to install
+# Uncomment below if using PostgreSQL
+# psycopg2-binary==2.9.9
+
+# Web framework
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-Login==0.6.3
+Flask-WTF==1.1.1
+Flask-RESTful==0.3.10
+WTForms==3.0.1
+
+# Optional: for better CLI interface
+tabulate==0.9.0
+
+# Optional: for environment variables
+python-dotenv==1.0.0
+
+# Security
+bcrypt==4.0.1
+Werkzeug==2.3.7
+PyJWT==2.8.0
+
+# Additional utilities
+python-dateutil==2.8.2
